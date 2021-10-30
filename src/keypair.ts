@@ -1,6 +1,7 @@
 import * as nacl from 'tweetnacl';
 
 import {PublicKey} from './publickey';
+import {TextEncoder} from 'fastestsmallesttextencoderdecoder';
 
 /**
  * Keypair signer interface
